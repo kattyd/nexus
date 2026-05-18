@@ -1,0 +1,77 @@
+.pillars-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.25rem;
+}
+.pillars-tag {
+    font-size: 1rem;
+    color: #5b5ce6;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: 6%;
+}
+.pillars-header h2{
+    font-size: 3.875rem;
+    color: #0d0d0d;
+    font-family: "Instrument Serif", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    max-width: 531px;
+    line-height: 108%;
+    letter-spacing: -2%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.pillars-desc {
+    font-size: 1.1rem;
+    color: #6b6b80;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 165%;
+}
+.pill {
+    padding: 40px 32px;
+    border-right: 1px solid #e4e4ef;
+    margin-bottom: 6.25rem;
+}
+.pill:last-child {
+    border-right: none;
+}
+.pillars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.p-tag {
+    font-size: 0.6875rem;
+    color: #5b5ce6;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: 8%;
+}
+.p-title {
+    font-size: 1.5rem;
+    color: #0d0d0d;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    max-width: 317px;
+    line-height: 130%;
+    letter-spacing: -1%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.p-desc {
+    font-size: 0.875rem;
+    color: #6b6b80;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    align-self:center;
+    line-height: 160%;
+}

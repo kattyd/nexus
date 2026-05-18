@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@font-face {
+  font-family: "Instrument-Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./assets/fonts/InstrumentSerif-Regular.woff2") format("woff2"); 
+}
+body {
+  margin: 0;
+}
+.container {
+  /* Use the width from your Figma frame here */
+  max-width: 1440px; 
+  
+  /* Centers the container on large screens */
+  margin: 0 auto;    
+  
+  /* Ensures it shrinks on smaller screens */
+  width: 100%;       
+  
+  /* Adds breathing room on the sides for smaller screens */
+  padding: 0 24px;   
+}
