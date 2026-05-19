@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Marquee from './components/Marquee';
 import Explore from './components/Explore';
 import Pillars from './components/Pillars';
+import Nfts from './components/Nfts';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <div className="container">
         <Pillars />
       </div>
+      <hr />
+      <Nfts />
     </>
   )
 }
