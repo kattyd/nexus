@@ -5,6 +5,7 @@ import Marquee from './components/Marquee';
 import Explore from './components/Explore';
 import Pillars from './components/Pillars';
 import Nfts from './components/Nfts';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       </div>
       <hr />
       <Nfts />
+      <Portfolio />
     </>
   )
 }

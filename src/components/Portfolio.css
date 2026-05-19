@@ -1,0 +1,65 @@
+.portfolio {
+    background-color: #f7f7fb;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.portfolio-left {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.portfolio-left img {
+    max-width: 100%;
+    height: auto;
+}
+.portfolio-right {
+    margin-top: 6.125rem;
+    width: 100%; 
+    max-width: 600px;
+}
+.portfolio-tag {
+    font-size: 1rem;
+    color: #5b5ce6;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: 6%;
+}
+.portfolio-right h2 {
+    font-size: 3.875rem;
+    color: #0d0d0d;
+    font-family: "Instrument Serif", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    max-width: 367px;
+    line-height: 110%;
+    letter-spacing: -2%;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+.portfolio-right p {
+    font-size: 1rem;
+    color: #6b6b80;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 170%;
+    margin-bottom: 1.75rem;
+}
+.port-tags {
+    display: flex;
+    gap: 8px;
+}
+.port-tag {
+    font-size: 0.8125rem;
+    color: #6b6b80;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    padding: 6px 14px;
+    border: 1px solid #e4e4ef;
+    border-radius: 999px;
+}
