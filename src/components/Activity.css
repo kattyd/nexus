@@ -1,0 +1,57 @@
+.activity {
+    display: flex;
+    justify-content: space-between;
+}
+.activity-left {
+    margin-top: 5.875rem;
+    margin-bottom: 5.785rem;
+    max-width: 600px;
+}
+.activity-tag {
+    font-size: 1rem;
+    color: #5b5ce6;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: 6%;
+}
+.activity-left h2 {
+    font-size: 3.875rem;
+    color: #0d0d0d;
+    font-family: "Instrument Serif", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    max-width: 438px;
+    line-height: 110%;
+    letter-spacing: -2%;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+.activity-left p {
+    font-size: 1rem;
+    color: #6b6b80;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    line-height: 170%;
+}
+.a-tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 1.75rem;
+}
+.a-tag {
+    font-size: 0.8125rem;
+    color: #6b6b80;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    background: #f7f7fb;
+    padding: 6px 14px;
+    border: 1px solid #e4e4ef;
+    border-radius: 999px;
+}
+.activity-right {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}

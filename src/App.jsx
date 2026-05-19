@@ -6,6 +6,8 @@ import Explore from './components/Explore';
 import Pillars from './components/Pillars';
 import Nfts from './components/Nfts';
 import Portfolio from './components/Portfolio';
+import Activity from './components/Activity';
+import Security from './components/Security';
 
 function App() {
   return (
@@ -22,6 +24,10 @@ function App() {
       <hr />
       <Nfts />
       <Portfolio />
+      <div className="container">
+        <Activity />
+      </div>
+      <Security />
     </>
   )
 }

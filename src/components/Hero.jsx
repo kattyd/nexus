@@ -7,7 +7,7 @@ function Hero() {
       <section>
         <div className="hero-content">
             <div className="hero-badge">
-                <span> • Now live on Ethereum, Base & Solana</span>
+                <span> ● Now live on Ethereum, Base & Solana</span>
             </div>
             <div className="hero-txt">
                 <h1>Your favorite <text>multi-chain</text> wallet.</h1>
