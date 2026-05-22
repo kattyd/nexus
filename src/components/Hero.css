@@ -1,12 +1,22 @@
 section {
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    min-height: 100vh;
+    overflow: hidden;       
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
 }
 .hero-content {
-    margin-top: 7.5rem;
-    margin-left: 7.5rem;
-    max-width: 790px;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 466px;
+    z-index: 2; 
+    margin-top: 5rem;
 }
 .hero-badge {
     background-color: #eeeeff;
@@ -14,21 +24,23 @@ section {
     height: 15px;
     display: flex;
     align-items: center;
+    justify-content: center; /* Centers the inner text inside the pill capsule */
     border-radius: 999px;
     font-family: "Plus Jakarta Sans", sans-serif;
     padding: 6px 14px;
+    margin-bottom: 2rem;
 }
+
 .hero-badge span {
     color: #5b5cf6;
     font-size: 0.9rem;
     font-weight: 500;
-    text-align: center;
 }
 .hero-txt h1 {
-    width: 394px;
+    max-width: 436px;
     margin-top: 0;
     margin-bottom: 1.5rem;
-    font-family: "Instrument Serif";
+    font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-size: 6rem;
     line-height: 108%;
@@ -38,15 +50,17 @@ section {
     color: #5b5cf6;
 }
 .hero-txt span {
+    display: block; /* Crucial: changes inline <span> to block behavior so width and margins apply */
     font-family: "Plus Jakarta Sans", sans-serif;
     color: #6b6b80;
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 160%;
-    width: 612px;
+    margin: 0 auto; /* Centers the description block */
 }
 .hero-btns {
     display: flex;
+    justify-content: center;
     gap: 12px;
     margin-top: 2.5rem;
 }
@@ -55,7 +69,12 @@ section {
     padding: 12px 24px;
     border-radius: 999px;
     font-family: "Plus Jakarta Sans", sans-serif;
-
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.hero-btns button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
 }
 .hero-btns .download {
     width: 187px;
@@ -63,7 +82,7 @@ section {
     background-color: #0d0d0d;
     color: #fff;
 }
-.hero-btns .watch  {
+.hero-btns .watch {
     width: 164px;
     border: 1px solid #e4e4ef;
     background-color: #fff;
@@ -72,16 +91,38 @@ section {
 .trust {
     margin-top: 3rem;
     display: flex;
+    justify-content: center;
     gap: 20px;
+    padding: 0;
 }
-.trust li {
-    list-style: none;
+.trust span {
     font-size: 0.8125rem;
     color: #9999aa;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
 }
-.hero-img {
-    margin-right: 10.625rem;
-    margin-top: 8rem;
+.hero-illus {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 32vw; 
+    max-width: 649px;
+    height: auto;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hero-illus.left-side {
+    left: 0;
+}
+
+.hero-illus.right-side {
+    right: 0;
+}
+
+@media (max-width: 1200px) {
+    .hero-illus {
+        width: 25vw; /* Shrinks the side illustrations slightly on smaller desktops/tablets */
+        opacity: 0.35; /* Fades them slightly so text maintains maximum clarity */
+    }
 }

@@ -19,9 +19,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container">
-        <Hero />
-      </div>
+      <Hero />
       <Marquee />
       <Explore />
       <div className="container">
