@@ -10,6 +10,7 @@ import Activity from './components/Activity';
 import Security from './components/Security';
 import Testimonials from './components/Testimonials';
 import Detail from './components/Detail';
+import FAQ from './components/Faqs';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <Security />
       <Testimonials />
       <Detail />
+      <FAQ />
     </>
   )
 }
