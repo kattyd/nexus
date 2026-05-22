@@ -10,7 +10,7 @@ function Download () {
                     <p>Join thousands of people exploring crypto with Nexus - beautiful, secure, and entirely yours.</p>
                 </div>
                 <div className="final-cta">
-                    <button>Download for iOS</button>
+                    <button>Download for iOS ↗</button>
                     <span className='cta-text'>No credit card · No account required · Self-custody from day one</span>
                 </div>
             </div>

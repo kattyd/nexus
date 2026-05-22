@@ -32,7 +32,6 @@ function FAQ() {
     const [activeIndex, setActiveIndex] = useState(null);
 
     const toggleFAQ = (index) => {
-        // If the clicked item is already open, close it (set to null), otherwise open it
         setActiveIndex(activeIndex === index ? null : index);
     };
 

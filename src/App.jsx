@@ -12,6 +12,7 @@ import Testimonials from './components/Testimonials';
 import Detail from './components/Detail';
 import FAQ from './components/Faqs';
 import Download from './components/Download';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <Detail />
       <FAQ />
       <Download />
+      <Footer />
     </>
   )
 }
