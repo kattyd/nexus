@@ -1,0 +1,62 @@
+ .download-content {
+    background-color: #0d0d0d;
+    color: #fff;
+
+}
+.download-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.download-tag {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 6%;
+    color: #ffffff4d;
+    margin-top: 6.25rem;
+}
+.download-header h2 {
+    font-family: "Instrument Serif", sans-serif;
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 108%;
+    letter-spacing: -2%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 408px;
+    text-align: center;
+}
+.download-header p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    color: #ffffff73;
+}
+.final-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.final-cta button {
+    max-width: 233px;
+    border-radius: 999px;
+    padding: 16px 40px;
+    background-color: #fff;
+    color: #0d0d0d;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 1.25rem;
+}
+.cta-text {
+    font-weight: 400;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1rem;
+    color: #ffffff4d;
+    margin-bottom: 6.25rem;
+}

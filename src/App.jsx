@@ -11,6 +11,7 @@ import Security from './components/Security';
 import Testimonials from './components/Testimonials';
 import Detail from './components/Detail';
 import FAQ from './components/Faqs';
+import Download from './components/Download';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <Testimonials />
       <Detail />
       <FAQ />
+      <Download />
     </>
   )
 }

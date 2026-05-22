@@ -11,15 +11,8 @@ body {
   margin: 0;
 }
 .container {
-  /* Use the width from your Figma frame here */
   max-width: 1440px; 
-  
-  /* Centers the container on large screens */
   margin: 0 auto;    
-  
-  /* Ensures it shrinks on smaller screens */
   width: 100%;       
-  
-  /* Adds breathing room on the sides for smaller screens */
   padding: 0 24px;   
 }
