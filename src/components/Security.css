@@ -5,10 +5,10 @@
 .security-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .security-left {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    /* margin-top: 8.375rem; */
     max-width: 469px;
 }
 .security-tag {

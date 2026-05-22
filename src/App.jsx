@@ -8,6 +8,9 @@ import Nfts from './components/Nfts';
 import Portfolio from './components/Portfolio';
 import Activity from './components/Activity';
 import Security from './components/Security';
+import Testimonials from './components/Testimonials';
+import Detail from './components/Detail';
+
 
 function App() {
   return (
@@ -28,6 +31,8 @@ function App() {
         <Activity />
       </div>
       <Security />
+      <Testimonials />
+      <Detail />
     </>
   )
 }
