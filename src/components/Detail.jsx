@@ -3,7 +3,6 @@ import Mini1 from "../assets/Mini1.png"
 import Mini2 from "../assets/Mini2.png"
 import Mini3 from "../assets/Mini3.png"
 import Mini4 from "../assets/Mini4.png"
-import { div, title } from 'framer-motion/client'
 
 const details = [
     {
