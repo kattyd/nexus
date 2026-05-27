@@ -54,6 +54,11 @@
     border: none;
     margin-bottom: 1.25rem;
 }
+.final-cta button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
 .cta-text {
     font-weight: 400;
     font-family: "Plus Jakarta Sans", sans-serif;

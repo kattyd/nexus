@@ -23,6 +23,10 @@
 .nav-links li {
     list-style: none;
 }
+.nav-links li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 .nav-btns {
     margin-right: 2.5rem;
 }

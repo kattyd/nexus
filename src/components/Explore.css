@@ -146,6 +146,11 @@
     background-color: #0d0d0d;
     color: #fff;
 }
+.send-button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
 .send-card {
     margin-top: 5.78rem;
 }
