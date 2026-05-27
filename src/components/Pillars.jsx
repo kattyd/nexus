@@ -40,7 +40,7 @@ function Pillars () {
                 {pills.map((pill, index) => (
                     <div key={index} className="pill">
                         <div className="p-tag">{pill.tag}</div>
-                        <div className="p-title">{pill.title}</div>
+                        <div className="p-title"><span>{pill.title}</span></div>
                         <div className="p-desc">{pill.desc}</div>
                     </div>
                 ))}

@@ -37,7 +37,6 @@
     border-bottom: 1px solid #E4E4EF;
 }
 .faq-item:first-child {
-    background-color: #f1fbff;
     border-radius: 12px 12px 0 0;
 }
 .faq-item:last-child {
@@ -105,7 +104,9 @@
 }
 
 /* --- EXPANDED STATES --- */
-
+.faq-item.active {
+    background-color: #f1fbff;
+}
 .faq-item.active .faq-answer-wrapper {
     grid-template-rows: 1fr;
     padding-bottom: 2rem;

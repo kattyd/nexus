@@ -110,7 +110,7 @@ section {
     height: auto;
     z-index: 1;
     pointer-events: none;
-    animation: float 4s ease-in-out infinite;
+    animation: float 10s ease-in-out infinite;
 }
 @keyframes float {
     0% { transform: translateY(100); }
