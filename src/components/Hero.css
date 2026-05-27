@@ -110,12 +110,19 @@ section {
     height: auto;
     z-index: 1;
     pointer-events: none;
-    animation: float 10s ease-in-out infinite;
+    animation: float 5s ease-in-out infinite;
 }
+
 @keyframes float {
-    0% { transform: translateY(100); }
-    50% { transform: translateY(-500px); }
-    100% { transform: translateY(100); }
+    0% {
+        transform: translateY(-50%); 
+    }
+    50% {
+        transform: translateY(calc(-50% - 30px)); 
+    }
+    100% {
+        transform: translateY(-50%); 
+    }
 }
 
 
