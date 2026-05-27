@@ -110,7 +110,14 @@ section {
     height: auto;
     z-index: 1;
     pointer-events: none;
+    animation: float 4s ease-in-out infinite;
 }
+@keyframes float {
+    0% { transform: translateY(100); }
+    50% { transform: translateY(-500px); }
+    100% { transform: translateY(100); }
+}
+
 
 .hero-illus.left-side {
     left: 0;
